@@ -1,0 +1,49 @@
+.list {
+  margin: 50px 0 70px;
+}
+
+.list div.main {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  padding: 15px;
+  border: 2px solid #eaeaea;
+  border-radius: 5px;
+}
+
+.list h5 {
+  margin-right: 10px;
+  font-size: 0.9rem;
+  width: 120px;
+}
+.list p {
+  /* width: 100%; */
+  text-align: left;
+  color: #a62626;
+  margin-right: auto;
+  margin-left: 20px;
+}
+.list button {
+  background-color: transparent;
+  color: #f44336;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.list div.child {
+  margin: 20px 0;
+  margin-right: 40px;
+  padding: 15px;
+  border: 2px solid #eaeaea;
+  border-radius: 5px;
+}
+
+.list div.child ul {
+  list-style: none;
+}
+.list div.child ul li {
+  display: flex;
+  align-items: center;
+}

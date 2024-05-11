@@ -1,0 +1,77 @@
+.sidebar {
+  margin-top: 30px;
+  width: 200px;
+}
+
+.sidebar ul.parents {
+  list-style: none;
+  padding-bottom: 10px;
+  border-bottom: 1px solid silver;
+}
+.sidebar ul.childrens {
+  list-style: none;
+  padding-bottom: 0px;
+  padding-right: 40px;
+  font-size: 0.8rem;
+}
+.sidebar ul.childrens li {
+  color: gray;
+  padding: 10px;
+  cursor: pointer;
+}
+.sidebar ul.childrens li p {
+  font-size: 0.8rem;
+}
+
+.sidebar li.parent {
+  display: flex;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.sidebar li p {
+  font-weight: 200;
+  color: #262626;
+  margin-right: 10px;
+  font-size: 0.8remrem;
+}
+.sidebar li img {
+  width: 18px;
+}
+.sidebar .priceSelect,
+.footer {
+  margin-top: 40px;
+}
+.sidebar .priceSelect h5 {
+  border-bottom: 2px solid #a62626;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+.sidebar .priceSelect div {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  gap: 10px;
+}
+.sidebar .priceSelect div label {
+  font-size: 0.7rem;
+}
+.sidebar .priceSelect div input {
+  border: 1px solid silver;
+  border-radius: 3px;
+}
+.footer {
+  border-top: 1px solid silver;
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  gap: 20px;
+  justify-content: center;
+  font-weight: 200;
+  color: gray;
+}
+.sidebar p.selected {
+  color: #a62626;
+  font-size: 1rem;
+  font-weight: bolder;
+}

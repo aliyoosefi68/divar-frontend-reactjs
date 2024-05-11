@@ -1,0 +1,71 @@
+.container {
+  width: 80%;
+  display: flex;
+
+  justify-content: center;
+  margin: 50px auto;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.container div h3 {
+  font-weight: 200;
+}
+.container div p {
+  font-weight: 200;
+  font-size: 0.9rem;
+  color: #666;
+}
+.container div input {
+  width: 500px;
+  padding: 10px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid silver;
+}
+.container .categoryList {
+  list-style: none;
+  width: 500px;
+  min-height: 0;
+  transition: all 0.2s;
+}
+.container .categoryList li {
+  width: 90%;
+  padding: 15px 5px;
+  border-bottom: 1px solid silver;
+  margin: auto;
+  cursor: pointer;
+  font-weight: 200;
+  color: #666;
+  background-color: white;
+  transition: 0.2s all;
+}
+.container .categoryList li:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.container div input::placeholder {
+  font-weight: 200;
+  opacity: 0.6;
+}
+.container div .more_category {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid silver;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.container div .more_category span {
+  display: block;
+  font-size: 0.9rem;
+  color: #222;
+}
+.container div .more_category svg {
+  color: #666;
+}

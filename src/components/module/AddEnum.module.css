@@ -1,0 +1,64 @@
+.container {
+  margin-bottom: 40px;
+  padding: 15px;
+  width: fit-content;
+  border-radius: 5px;
+  border: 1px solid silver;
+  width: 300px;
+}
+
+.container p {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.container .add {
+  border: none;
+  background-color: #a62626;
+  color: #fff;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  transition: all ease-in 0.1s;
+  cursor: pointer;
+  padding: 10px 25px;
+  display: flex;
+  margin-top: 20px;
+}
+.container button:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.card input {
+  width: 250px;
+  border: 1px solid silver;
+  color: grey;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  height: 30px;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.card input:focus {
+  border: 1px #304ffe #a62626;
+  outline: none;
+}
+
+.card .remove {
+  margin: 0;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  color: #db0505;
+  background-color: #fff;
+  border: 1px #db0505 solid;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}

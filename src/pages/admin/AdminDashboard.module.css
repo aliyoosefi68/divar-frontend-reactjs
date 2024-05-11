@@ -1,0 +1,96 @@
+.container {
+}
+.time {
+  background-color: #e0f7fa;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 5px;
+  border-right: 2px solid #0097a7;
+}
+.time span {
+  display: block;
+}
+.content {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+.posts,
+.users {
+  position: relative;
+  width: 50%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 2px dashed silver;
+  border-radius: 10px;
+  background-color: transparent;
+  overflow: hidden;
+}
+.postsInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.postsInfo span {
+  display: flex;
+  align-items: center;
+}
+.postsInfo span svg {
+  font-size: 1.3rem;
+  margin-left: 5px;
+}
+.postsInfo:nth-child(1) {
+  font-size: 1.3rem;
+  background-color: #a62626;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+}
+.postsInfo:nth-child(2) {
+  background-color: #f1f8e9;
+  padding: 10px;
+  color: #43a047;
+  border-radius: 5px;
+}
+.postsInfo:nth-child(3) {
+  background-color: #ffebee;
+  padding: 10px;
+  color: #ef5350;
+  border-radius: 5px;
+}
+.posts .postsInfo:nth-child(4) {
+  background-color: #fff3e0;
+  padding: 10px;
+  color: #ff9800;
+  border-radius: 5px;
+}
+.posts button {
+  background-color: #a62626;
+  font-size: 1.5rem;
+  color: #fff;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.cardImages {
+  position: absolute;
+  font-size: 20rem;
+  bottom: -40px;
+  left: -40px;
+  opacity: 0.05;
+  transform: rotate(-20deg);
+}
+
+.users .postsInfo:nth-child(1) {
+  background-color: #fff;
+  color: #262626;
+}

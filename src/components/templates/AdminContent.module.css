@@ -1,0 +1,13 @@
+.time {
+  background-color: #e0f7fa;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 5px;
+  border-right: 2px solid #0097a7;
+  margin-bottom: 40px;
+}
+.time span {
+  display: block;
+}

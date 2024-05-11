@@ -1,0 +1,174 @@
+.container {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.detailes {
+  display: flex;
+  margin-top: 40px;
+}
+.detailes .options {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.detailes .options h2 {
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.detailes .options .date {
+  font-size: 0.8rem;
+  color: gray;
+  margin-bottom: 20px;
+  font-weight: light;
+}
+.detailes .options .city {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid silver;
+  border-top: 1px solid silver;
+  margin-bottom: 20px;
+}
+
+.detailes .options .contact {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.detailes .options .contact button {
+  background-color: #a62626;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.detailes .options .contact svg {
+  color: gray;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.detailes .options .price {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 200;
+  color: gray;
+  padding: 10px 0;
+  border-bottom: 1px solid silver;
+  border-top: 1px solid silver;
+}
+.detailes .options .detailesOp {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 200;
+  color: gray;
+  padding: 10px 0;
+  border-bottom: 1px solid silver;
+}
+.extraDetailes {
+  margin-bottom: 40px;
+}
+
+.detailes .options .content h4 {
+  margin-bottom: 20px;
+}
+.detailes .options .content p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: rgb(73, 72, 72);
+  width: 400px;
+}
+.detailes .images {
+  width: 50%;
+}
+.detailes .images .note {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.detailes .images .note input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 3px;
+}
+.detailes .images .note textarea {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 3px;
+  height: 120px;
+  resize: none;
+}
+.detailes .images .note input::placeholder,
+textarea::placeholder {
+  font-size: 0.8rem;
+  color: silver;
+  font-weight: 200;
+  font-family: "Vazir";
+}
+.modalBackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  right: 0;
+  border: 0;
+  left: 0;
+  z-index: 10;
+}
+.modal {
+  width: 50%;
+  padding: 40px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 15;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  text-align: center;
+}
+.modal .closeButton {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+.modal h4 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #a62626;
+}
+.modal div {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.modal div svg {
+  font-size: 2.8rem;
+  cursor: pointer;
+  color: gray;
+  transition: 0.2s;
+}
+.modal div svg:hover {
+  cursor: pointer;
+  color: #a62626;
+}

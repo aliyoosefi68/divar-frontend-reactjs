@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  border: 2px dashed silver;
+  border-radius: 7px;
+  padding: 40px 20px;
+}
+.profileIcon {
+  width: 80px;
+  height: 80px;
+  margin: 10px auto;
+  text-align: center;
+}
+.profileIcon svg {
+  font-size: 3rem;
+}
+.container .links {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+.container .links .linkItem {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  position: relative;
+  align-items: center;
+  font-size: 1.1rem;
+  background-color: transparent;
+}
+
+.container .links .linkItem svg {
+  font-size: 1.5rem;
+  color: #a62626;
+  margin-left: 5px;
+}
+.logout {
+  background-color: #a62626;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: auto;
+  cursor: pointer;
+}
